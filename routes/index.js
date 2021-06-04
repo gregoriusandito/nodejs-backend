@@ -9,10 +9,9 @@ router.route("/getByAccountNumber")
     .post(userController.getByAccountNumber);
 router.route("/getByIdentityNumber")
     .post(userController.getByIdentityNumber);
-router.route("/:user_id")
-    .get(userController.view)
-    .patch(userController.update)
-    .put(userController.update)
-    .delete(userController.delete);
+router.route("/update")
+    .post(userController.update);
+router.route("/delete")
+    .post(userController.update);
 
 module.exports = router

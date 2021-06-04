@@ -80,11 +80,11 @@ exports.update = function (req, res) {
             return res.send(err);
         }
             
-        user.name = req.body.name ? req.body.name : user.name;
-        user.gender = req.body.gender;
-        user.email = req.body.email;
-        user.phone = req.body.phone;
-
+        user.userName = req.body.userName;
+        user.accountNumber = req.body.accountNumber;
+        user.emailAddress = req.body.emailAddress;
+        user.identityNumber = req.body.identityNumber;
+    
         user.save(function (error) {
             if (error) {
                 return res.json(error);
