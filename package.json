@@ -1,0 +1,31 @@
+{
+  "name": "gregoriusandito",
+  "version": "1.0.0",
+  "description": "backend rest API built with nodejs, express, and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "rest",
+    "backend",
+    "mongo"
+  ],
+  "author": "Gregorius Andito Herjuno",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12"
+  },
+  "engines": {
+    "node": "14.15.4"
+  }
+}
