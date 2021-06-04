@@ -12,6 +12,6 @@ router.route("/getByIdentityNumber")
 router.route("/update")
     .post(userController.update);
 router.route("/delete")
-    .post(userController.update);
+    .post(userController.delete);
 
 module.exports = router
